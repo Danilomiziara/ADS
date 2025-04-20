@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Clínica Cabelos de Ouro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #1a1200;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 0;
+            background: linear-gradient(45deg, #332900, #000000);
+            border-bottom: 5px solid #FFD700;
+        }
+
+        h1 {
+            color: #FFD700;
+            font-size: 3em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            color: #FFD700;
+            margin: 30px 0;
+            border-bottom: 2px solid #FFD700;
+            padding-bottom: 15px;
+            font-size: 2em;
+        }
+        
+
+        h3 {
+            color: #FFD700;
+            margin: 20px 0;
+            font-size: 1.4em;
+        }
+
+        .servicos {
+            display: flex;
+            gap: 25px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .servico {
+            flex: 1;
+            min-width: 300px;
+            background: #332900;
+            padding: 25px;
+            border-radius: 10px;
+            border: 2px solid #FFD700;
+            transition: transform 0.3s ease;
+        }
+
+        .servico:hover {
+            transform: scale(1.02);
+        }
+
+        .servico img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+            border: 3px solid #FFD700;
+        }
+
+        .equipe {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .membro {
+            text-align: center;
+            background: #332900;
+            padding: 25px;
+            border-radius: 10px;
+            border: 2px solid #FFD700;
+        }
+
+        .membro img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid #FFD700;
+            box-shadow: 0 0 15px rgba(255,215,0,0.3);
+        }
+
+        form {
+            background: #332900;
+            padding: 40px;
+            border-radius: 10px;
+            margin: 40px 0;
+            border: 2px solid #FFD700;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            color: #FFD700;
+            font-size: 1.1em;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            background: #1a1200;
+            border: 2px solid #FFD700;
+            color: #ffffff;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        input::placeholder {
+            color: #cccccc;
+        }
+
+        button {
+            background: linear-gradient(45deg, #FFD700, #ccaa00);
+            color: #1a1200;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: transform 0.3s ease;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(255,215,0,0.5);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(45deg, #000000, #332900);
+            color: #FFD700;
+            margin-top: 40px;
+            border-top: 5px solid #FFD700;
+        }
+        .menu {
+    margin-top: 30px;
+}
+
+.menu a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: 2px solid #FFD700;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    background: #FFD700;
+    color: #1a1200;
+    box-shadow: 0 0 15px rgba(255,215,0,0.5);
+}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #1a1200;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clínica Cabelos de Ouro</h1>
+        <h2>Excelência em Saúde Capilar</h2>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="sobre">
+            <h2>Nossa História</h2>
+            <p>Fundada em 2010 pelo renomado tricologista Dr. Danilo Vaz, a Clínica Cabelos de Ouro nasceu da paixão por restaurar a autoestima através de tratamentos capilares de excelência. Combinando tecnologia de ponta com abordagens personalizadas, tornamo-nos referência nacional em saúde capilar.</p>
+
+            <h2>Missão</h2>
+            <p>Oferecer soluções inovadoras e tratamentos premium para cuidados capilares, garantindo resultados naturais e duradouros que transformam vidas.</p>
+
+            <h2>Diferenciais</h2>
+            <ul class="diferenciais">
+                <li>Equipe médica especializada e altamente qualificada</li>
+                <li>Tecnologia de última geração</li>
+                <li>Protocolos personalizados</li>
+                <li>Ambiente exclusivo e acolhedor</li>
+                <li>Acompanhamento pós-procedimento</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Clínica Cabelos de Ouro - Referência em Terapias Capilares</p>
+        <p style="margin-top: 15px; font-size: 0.9em;">Sua Jornada para Cabelos Perfeitos Começa Aqui</p>
+    </footer>
+</body>
